@@ -80,6 +80,7 @@ lb = LabelBinarizer()
 trainY = lb.fit_transform(trainY)
 testY = lb.transform(testY)
 
+# Backpropagation
 # menentukan arsitektur 3072-1024-512-7 menggunakan Keras
 # lapisan input dan lapisan tersembunyi pertama didefinisikan pada Baris 91. 
 # akan memiliki input_shape 3072 karena ada 32x32x3 = 3072 piksel dalam gambar input yang diratakan.
@@ -96,7 +97,6 @@ model.add(Dense(len(lb.classes_), activation="softmax"))
 INIT_LR = 0.01
 EPOCHS = 75
 
-# Backpropagation
 # kompilasi model menggunakan SGD sebagai pengoptimal dan categorical 
 # cross-entropy loss (menggunakan binary_crossentropy untuk klasifikasi 2 kelas)
 # dimana SGD adalah pengoptimalan library yang menggunakan backpropagation
