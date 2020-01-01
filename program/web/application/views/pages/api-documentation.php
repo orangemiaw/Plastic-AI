@@ -178,7 +178,7 @@
      "request_id": "71ff8880-ab84-489e-8e64-ae6d1414d869",
      "type": "plastic",
      "percentage": 46.52628004550933837890625,
-     "file": "<?php print base_url('files\/images\/detected\/71ff8880-ab84-489e-8e64-ae6d1414d869\/052822f8-e796-4c3c-85df-5d3254c72b13.jpg');?>",
+     "file": "<?php print base_url('files/images/detected/71ff8880-ab84-489e-8e64-ae6d1414d869/052822f8-e796-4c3c-85df-5d3254c72b13.jpg');?>",
      "time_used": 0.690277099609375,
      "status": 1
    },
@@ -243,7 +243,7 @@
        "request_id": "ed211bfb-ea1c-4446-8887-dc1f82ebc1c1",
        "type": "PET",
        "percentage": "79.578906297684",
-       "file": "<?php print base_url('files\/images\/detected\/ed211bfb-ea1c-4446-8887-dc1f82ebc1c1\/c894bdc2-40ce-4063-8879-d9f96bd15f2d.jpg');?>",
+       "file": "<?php print base_url('files/images/detected/ed211bfb-ea1c-4446-8887-dc1f82ebc1c1/c894bdc2-40ce-4063-8879-d9f96bd15f2d.jpg');?>",
        "time_used": "0.72007584571838",
        "status": 1
      },
@@ -251,7 +251,7 @@
        "request_id": "1b095ab9-ad48-437b-8b18-bf3d50ec1cb5",
        "type": "PVC",
        "percentage": "79.578906297684",
-       "file": "<?php print base_url('files\/images\/detected\/1b095ab9-ad48-437b-8b18-bf3d50ec1cb5\/7404eda5-f34c-4031-bda5-8503835191af.jpg');?>",
+       "file": "<?php print base_url('files/images/detected/1b095ab9-ad48-437b-8b18-bf3d50ec1cb5/7404eda5-f34c-4031-bda5-8503835191af.jpg');?>",
        "time_used": "0.54953050613403",
        "status": 1
      },
@@ -259,7 +259,7 @@
        "request_id": "e009bda3-7f2f-4db3-a581-ccbbcc02a5fa",
        "type": "PET",
        "percentage": "29.092353582382",
-       "file": "<?php print base_url('files\/images\/detected\/e009bda3-7f2f-4db3-a581-ccbbcc02a5fa\/2c5495b2-09fb-44fe-8deb-59c20d737d37.jpg');?>",
+       "file": "<?php print base_url('files/images/detected/e009bda3-7f2f-4db3-a581-ccbbcc02a5fa/2c5495b2-09fb-44fe-8deb-59c20d737d37.jpg');?>",
        "time_used": "1.0406453609467",
        "status": 1
      },
@@ -267,7 +267,7 @@
        "request_id": "71ff8880-ab84-489e-8e64-ae6d1414d869",
        "type": "PET",
        "percentage": "46.526280045509",
-       "file": "<?php print base_url('files\/images\/detected\/71ff8880-ab84-489e-8e64-ae6d1414d869\/052822f8-e796-4c3c-85df-5d3254c72b13.jpg');?>",
+       "file": "<?php print base_url('files/images/detected/71ff8880-ab84-489e-8e64-ae6d1414d869/052822f8-e796-4c3c-85df-5d3254c72b13.jpg');?>",
        "time_used": "0.69027709960938",
        "status": 1
      }
@@ -303,7 +303,7 @@
      "request_id": "ed211bfb-ea1c-4446-8887-dc1f82ebc1c1",
      "type": "PET",
      "percentage": "79.578906297684",
-     "file": "<?php print base_url('files\/images\/detected\/ed211bfb-ea1c-4446-8887-dc1f82ebc1c1\/c894bdc2-40ce-4063-8879-d9f96bd15f2d.jpg');?>",
+     "file": "<?php print base_url('files/images/detected/ed211bfb-ea1c-4446-8887-dc1f82ebc1c1/c894bdc2-40ce-4063-8879-d9f96bd15f2d.jpg');?>",
      "time_used": "0.72007584571838",
      "brain_response": {
        "_id": "ed211bfb-ea1c-4446-8887-dc1f82ebc1c1",
@@ -331,7 +331,7 @@
            ]
          }
        ],
-       "file": "<?php print base_url('files\/images\/detected\/ed211bfb-ea1c-4446-8887-dc1f82ebc1c1\/c894bdc2-40ce-4063-8879-d9f96bd15f2d.jpg');?>",
+       "file": "<?php print base_url('files/images/detected/ed211bfb-ea1c-4446-8887-dc1f82ebc1c1/c894bdc2-40ce-4063-8879-d9f96bd15f2d.jpg');?>",
        "time_used": 0.7200758457183837890625
      },
      "status": 1
