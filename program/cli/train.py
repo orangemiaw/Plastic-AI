@@ -80,7 +80,13 @@ lb = LabelBinarizer()
 trainY = lb.fit_transform(trainY)
 testY = lb.transform(testY)
 
-# menentukan arsitektur 3072-1024-512-3 menggunakan Keras
+# menentukan arsitektur 3072-1024-512-7 menggunakan Keras
+# lapisan input dan lapisan tersembunyi pertama didefinisikan pada Baris 91. 
+# akan memiliki input_shape 3072 karena ada 32x32x3 = 3072 piksel dalam gambar input yang diratakan.
+# lapisan tersembunyi pertama akan memiliki 1024 node.
+# lapisan tersembunyi kedua akan memiliki 512 node (Baris 92).
+# akhirnya, jumlah node di lapisan keluaran akhir (Baris 93) akan menjadi jumlah label kelas yang mungkin. 
+# dalam hal ini, lapisan output akan memiliki 7 node (HDPE, LDPE, Other, PET, PP, PS, PVC).
 model = Sequential()
 model.add(Dense(1024, input_shape=(3072,), activation="sigmoid"))
 model.add(Dense(512, activation="sigmoid"))
