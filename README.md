@@ -12,6 +12,11 @@ Developed by :
 ## Research Overview
 Dari percobaan yang telah dilakukan rata - rata akurasi yang didapatkan adalah sebesar 64% hal ini dipengaruhi oleh keterbatasannya dataset tentang tipe - tipe sampah plastik. Dataset yang digunakan sebanyak 211 gambar dengan 7 label berdasarkan tipe sampah plastik yang ada, yang kemudian dataset diaugmentasi sehingga menghasilkan 15.321 gambar sebagai dataset.
 
+### Arsitektur Backpropagation Yang Digunakan
+Pada kasus ini kami menentukan arsitektur backpropagation 3072-1024-512-7 menggunakan Keras.
+
+![Arsitektur](images/arsitektur.png)
+
 ### Grafik Hasil Training dan Akurasi
 ![Grafik akurasi](images/plastic_plot.png)
 
