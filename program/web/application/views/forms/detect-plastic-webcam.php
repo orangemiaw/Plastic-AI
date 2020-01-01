@@ -2,34 +2,34 @@
 <div class="row">
 	<div class="col-md-7 col-sm-12">
 
-		<?php print form_open(current_url(), array('id' => 'from-suspect-add', 'class' => 'card shadow-base bd-0'));?>
+		<?php print form_open(current_url(), array('id' => 'form-using-webcam', 'class' => 'card shadow-base bd-0'));?>
 
 		<div class="card-body">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="card-block mg-b-15">
-						<a href="<?php print base_url($this->controller . '/webcam');?>" class="btn btn-warning rounded ">
-							<div>
-								<i class="ion ion-md-camera"></i> USING WEBCAM
-							</div>
-						</a>
-					</div>
+                    <div class="card-block mg-b-15">
+                        <a href="<?php print base_url($this->controller);?>" class="btn btn-warning rounded ">
+                            <div>
+                                <i class="ion ion-md-cloud-upload"></i> USING IMAGE UPLOAD
+                            </div>
+                        </a>
+                    </div>
                 </div>
-
+                
 				<div class="col-md-12">
-					<div class="form-group mg-b-0">
-						<label class="form-control-label">Plastic Waste Photo <span class="tx-danger">*</span></label>
-                        <div class="custom-file">
-                            <input type="file" name="image_file" class="custom-file-input" id="customFile" placeholder="Choose file" required autofocus>
-                            <label class="custom-file-label" for="customFile">Choose file</label>
-                        </div>
-						<ul class="fields-message"></ul>
-					</div>
-				</div>
+                    <div id="inputImage" class="col-md-12 tx-center">
+                        <center>
+                            <div id="my_camera"></div>
+                            <div id="results"></div>
+                        </center>
+                        <input type="hidden" type="file" accept="image/*" name="image_base64" class="image-tag">
+                    </div>
+                </div>
 			</div>
 		</div>
 		<div class="card-footer bd-color-gray-lighter text-right">
-			<button type="submit" class="btn btn-primary tx-size-xs ">Submit</button>
+            <input id="takeSnapshot" type="button" class="btn btn-danger tx-size-xs" value="Take Snapshot" onClick="take_snapshot()">
+			<button type="submit" class="btn btn-primary tx-size-xs">Submit</button>
 		</div>
 
 		<?php print form_close();?>
@@ -61,9 +61,31 @@
 	</div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.js"></script>
+<script language="JavaScript">
+	Webcam.set({
+		width: 320,
+		height: 240,
+		dest_width: 640,
+		dest_height: 480,
+		image_format: 'jpeg',
+		jpeg_quality: 100
+	});
+	Webcam.attach( '#my_camera' );
+ 
+    function take_snapshot() {
+        Webcam.snap( function(data_uri) {
+            $(".image-tag").val(data_uri);
+            document.getElementById('my_camera').style.display = "none";
+            document.getElementById('takeSnapshot').style.display = "none";
+            document.getElementById('results').innerHTML = '<img src="'+data_uri+'"/>';
+        } );
+    }
+</script>
+
 <script type="text/javascript">
 $(document).ready(function() {
-	$('#from-suspect-add').on('submit', function(event){
+	$('#form-using-webcam').on('submit', function(event){
 		event.preventDefault();
 		var request = '<?php print base_url().'request/'.$this->req_controller;?>/<?php print $this->action;?>',
             form    = $(this),
