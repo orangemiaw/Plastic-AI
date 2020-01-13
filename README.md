@@ -5,7 +5,6 @@ Aplikasi yang dibangun dapat mendeteksi jenis sampah plastik termasuk dalam golo
 
 Developed by :
 - Imam Kusniadi (17.11.1341)
-- Mahmuddin Faqih A (17.11.1399)
 - Mahmud Zakaria A (17.11.1356)
 - Boy Candra W (17.11.1378)
 
