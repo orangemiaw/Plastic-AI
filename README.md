@@ -9,7 +9,7 @@ Developed by :
 - Boy Candra W (17.11.1378)
 
 ## Datasets
-Dataset berada pada directory program/cli/dataset-real (Dataset masih belum diaugmentasi)
+Dataset berada pada directory program/cli/datasets-real (Dataset masih belum diaugmentasi)
 
 ## Research Overview
 Dari percobaan yang telah dilakukan rata - rata akurasi yang didapatkan adalah sebesar 64% hal ini dipengaruhi oleh keterbatasannya dataset tentang tipe - tipe sampah plastik. Dataset yang digunakan sebanyak 211 gambar dengan 7 label berdasarkan tipe sampah plastik yang ada, yang kemudian dataset diaugmentasi sehingga menghasilkan 15.321 gambar sebagai dataset.
