@@ -6,7 +6,12 @@ Aplikasi yang dibangun dapat mendeteksi jenis sampah plastik termasuk dalam golo
 Developed by :
 - Imam Kusniadi (17.11.1341)
 - Mahmud Zakaria A (17.11.1356)
+- Mahmuddin Faqih A (17.11.1399)
 - Boy Candra W (17.11.1378)
+
+### Donate
+- Jika proyek ini sangat membantu anda untuk pengembangan aplikasi dan anda ingin mendukung saya, Anda dapat memberi saya secangkir kopi :)
+- [![Donation](https://img.shields.io/badge/bitcoin-donate-yellow.svg)](https://blockchain.info/id/address/1EKgiVqAvMnenGwuV8yvkvzfgMPUx18VBH)
 
 ## Datasets
 Dataset berada pada directory program/cli/datasets-real (Dataset masih belum diaugmentasi)
@@ -117,5 +122,6 @@ Program sendiri dibuwat berbasis web (web base application) dimana menggunakan f
 ## Hasil Deteksi
 ![Hasil deteksi](images/testing_result.png)
 
-## Notice
-***Web application belum di onlinekan karena keterbatasan resource Virtual Private Server yang support untuk machine learning***
+## Disclaimer
+
+***Note: modifications, changes, or alterations to this sourcecode is acceptable, however,any public releases utilizing this code must be approved by writen this application.***
