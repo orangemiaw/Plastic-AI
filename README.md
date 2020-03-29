@@ -3,12 +3,6 @@ Pendeteksi Jenis Sampah Plastik Berbasis Image Proccessing dengan Algoritma Back
 
 Aplikasi yang dibangun dapat mendeteksi jenis sampah plastik termasuk dalam golongan HDPE, LDPE, Other, PET, PP, PS, ataupun PVC. Aplikasi dapat digunakan secara langsung dengan cara mengakses dashboard maupun dapat digunakan pada platform lain dengan memanfaatkan RESTful API yang tersedia. PlastikAI menyediakan RESTful API yang dapat memudahkan implementasi keberbagai platform dan sector seperti untuk robotik dan embeded application.
 
-Developed by :
-- Imam Kusniadi (17.11.1341)
-- Mahmud Zakaria A (17.11.1356)
-- Mahmuddin Faqih A (17.11.1399)
-- Boy Candra W (17.11.1378)
-
 ### Donate
 - Jika proyek ini sangat membantu anda untuk pengembangan aplikasi dan anda ingin mendukung saya, Anda dapat memberi saya secangkir kopi :)
 - [![Donation](https://img.shields.io/badge/bitcoin-donate-yellow.svg)](https://blockchain.info/id/address/1EKgiVqAvMnenGwuV8yvkvzfgMPUx18VBH)
